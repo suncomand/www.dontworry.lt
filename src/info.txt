@@ -1,0 +1,125 @@
+import logo from './logo.svg';
+import './App.css';
+import {useState} from "react";
+
+function App() {
+const [getColor, setColor] = useState('red');
+
+function handleColorChange() {
+  setColor('red');
+}
+  function handleColorChange1() {
+    setColor('blue');
+  }
+  function handleColorChange3() {
+    setColor('orange');
+  }
+
+  ////js
+  return (
+      <div className="App">
+    <div className="box" style={{backgroundColor: getColor}}></div>
+
+
+        <button onClick={handleColorChange}>color one</button>
+        <button onClick={handleColorChange1}>color two</button>
+        <button onClick={handleColorChange3}>color three</button>
+
+      </div>
+  );
+}
+
+export default App;
+\\\\\\\\\\\\\\\\\\\\\
+import React,{useState} from 'react';
+////////////////////////////////////////////////////////////
+export const ProgressBar = () => {
+    const [progress, setProgress] = useState(0);
+    const handleButtonClick = () => {
+        if (progress < 100) {
+            setProgress(progress + 20);
+        }
+    };
+    const handleButtonReset = () => {
+        setProgress(0);
+    };
+    const getColor = () => {
+        if (progress < 40) {
+            return 'red';
+        } else if (progress < 70) {
+            return 'green';
+        } else {
+            return 'yellow';
+        }
+    };
+
+  /////////////////////////////////////////////////////////
+
+
+ NEW ONE
+
+ import React,{useState} from 'react';
+ ////////////////////////////////////////////////////////////
+ export const ProgressBar = () => {
+     const [progress, setProgress] = useState(0);
+     const handleButtonClick = () => {
+         if (progress < 100) {
+             setProgress(progress + 20);
+         }
+     };
+     const handleButtonReset = () => {
+         setProgress(0);
+     };
+     const getColor = () => {
+         if (progress < 40) {
+             return 'red';
+         } else if (progress < 70) {
+             return 'green';
+         } else {
+             return 'yellow';
+         }
+     };
+
+   /////////////////////////////////////////////////////////
+   return (
+       <div className="container">
+           <div className="progress-bar">
+               <div className="progress-bar-fill" style={{width: `${progress}%`, backgroundColor: getColor()}}>progress bar</div>
+
+               {" "}
+           </div>
+           <div className="progress-label">{progress}%</div>
+           <button onClick={handleButtonClick}>Progress</button>
+           <button onClick={handleButtonReset}>Reset</button>
+       </div>
+   );
+ };
+
+///////////// another
+
+import React, {useState} from 'react';
+////////////////////////////////////////////////////////////
+const [mood, setMood] = useState("happy");
+    /////////////////////////////////////////////////////////
+    return (
+        <div className="container">
+            <div className={`defaultClass ${mood}`}>good
+            </div>
+
+            <div className="container">
+                <button onClick={() => setMood("happy")}></button>
+                <button onClick={() => setMood("sad")}></button>
+                <button onClick={() => setMood("angry")}></button>
+                <button onClick={() => setMood("surprised")}></button>
+            </div>
+        </div>
+    );
+
+
+//////////////////////////////// SITE ////
+
+Mes esame komanda, specializuojanti informacinių puslapių sukūrime. Mūsų tikslas – kurti aiškius, funkcionalius ir patrauklius puslapius, kurie užtikrintų gerą vartotojo patirtį ir efektyviai perteiktų informaciją. Dirbame su įvairiais sektoriais, siekdami pritaikyti unikalius sprendimus pagal kiekvieno kliento poreikius.
+
+Atlikti darbai:
+https://vytaurus.lt/
+https://metauras.eu/

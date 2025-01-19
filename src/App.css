@@ -1,0 +1,146 @@
+
+body{
+  background-image: url("https://www.gifcen.com/wp-content/uploads/2023/08/rain-gif-5.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, h6 {
+  font-size: 4rem;
+  color: white;
+  margin: 40px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  color: #0e0a0a;
+}
+.toolbar-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "Academy Engraved LET", cursive;
+  color: #b3adad;
+  font-size: 40px;
+}
+.user-page {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.user-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgb(20, 48, 113);
+  transition: box-shadow 0.3s ease;
+  height: 300px;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 10px ;
+  font-size: 1em;
+}
+
+.user-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  text-decoration: underline;
+}
+.user-cont{
+  height: 300px;
+  width: 70%;
+  background: #007bff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(20, 48, 113);
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  }
+.user-cont1{
+  margin: 10px;
+  height:auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(20, 48, 113);
+}
+.card2{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #c6c1c1;
+}
+.card2:hover{
+  box-shadow: 0 4px 15px rgba(10, 20, 0, 0.2);
+
+}
+.user5{
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user6{
+  margin: 10px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.mrg{
+  margin: 20px;
+}
+.photo-card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.photo-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
