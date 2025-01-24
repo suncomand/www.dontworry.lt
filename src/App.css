@@ -1,17 +1,44 @@
 
 body{
-  background-image: url("https://www.gifcen.com/wp-content/uploads/2023/08/rain-gif-5.gif");
+  background-image: url("https://ryansechrest.com/content/images/2022/08/nodes.gif");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-h1, h3, h6 {
+h1, h2, h3, h6 {
   font-size: 4rem;
   color: white;
   margin: 40px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.color{
+  color: #b2b64a;
+}
+.input-cont{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+}
+
+.input-cont1{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.input-cont2{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
 }
 
 p {
@@ -19,16 +46,16 @@ p {
   color: #0e0a0a;
 }
 .toolbar-container {
-  margin: 20px;
+  margin: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  gap: 20px;
-  font-family: "Academy Engraved LET", cursive;
-  color: #b3adad;
-  font-size: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  width: 1400px;
 }
 .user-page {
   text-align: center;
@@ -144,3 +171,203 @@ h1 {
   display: block;
   margin-top: 10px;
 }
+.registration-form{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+}
+.profile-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://i.pinimg.com/originals/1d/a3/66/1da3663ce1d7d0f6098a31a667e862b4.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.posts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.post-description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+
+.user-list-page {
+  padding: 20px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.user-box {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #00ff00;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-box .profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.user-box span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+.input3{
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+}
+.message-page {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.message-page h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-history {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 12px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.message.sent {
+  background-color: rgba(211, 194, 194, 0.18);
+  color: white;
+  align-self: flex-end;
+}
+
+.message.received {
+  background-color: #e4e6eb;
+  color: black;
+  align-self: flex-start;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.message-input input {
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #f1f3f5;
+  outline: none;
+}
+
+.message-input input:focus {
+  border-color: #00fe2a;
+}
+
+.message-input button {
+  padding: 10px 15px;
+  background-color: #19fe00;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.message-input button:hover {
+  background-color: #5a7114;
+}
+
+.messages-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.messages-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
